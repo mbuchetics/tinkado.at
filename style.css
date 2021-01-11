@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    tinkado_web-11
+	    tinkado_web-14
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -257,8 +257,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .download-btn{
 	border-style:none;
-	width:95%;
 	max-width:133px;
+	width:97%;
+	overflow:visible;
+	float:none;
 }
 .divider-padding{
 	padding-bottom:30px;
@@ -457,6 +459,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.zahnrad{
 		opacity:1;
 	}
+	.download-btn{
+		width:97%;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -497,6 +502,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.margin-top{
 		;
+	}
+	.download-btn{
+		max-width:133px;
 	}
 	
 	/* Small Row Margin Offsets */
