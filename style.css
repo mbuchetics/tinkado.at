@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    tinkado_web-22
+	    tinkado_web-23
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -205,7 +205,11 @@ button{
 }
 
 
+/* Additional Aspect Ratios */
 
+.embed-responsive-4by4::before{
+	padding-top:100%}.embed-responsive-9by16::before{
+	padding-top:106.25%}
 
 /* ScrollToTop button */
 
@@ -475,14 +479,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-icon{
 	padding-right:5px;
 }
-.text-span-color{
-	color:#ffffff;
-}
 .notes{
 	font-size:14px;
 }
 .facts{
 	padding-bottom:40px;
+}
+.list-style{
+	padding:1% 1% 1% 1%;
 }
 
 /* = Colour
@@ -508,11 +512,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-pale-pink{
 	background-color:#F3D9E1;
 }
+.bgc-lavender-web-2{
+	background-color:#E5D8F3;
+}
 
 /* Text colour styles */
 
 .tc-slate-gray{
 	color:#76748D!important;
+}
+.tc-cerulean-blue{
+	color:#2D44B1!important;
 }
 
 /* Link colour styles */
@@ -636,6 +646,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.mt-md-0{
 	}
 	.mt-md-4{
+	}
+	.list-style{
+		padding:0% 0% 0% 0%;
 	}
 	
 	/* MD Row Margin Offsets */
