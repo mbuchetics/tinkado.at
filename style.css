@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    tinkado_web-23
+	    tinkado_web-24
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -488,6 +488,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .list-style{
 	padding:1% 1% 1% 1%;
 }
+.award{
+	max-width:100px;
+	background-position:left bottom;
+	padding-bottom:5px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -747,6 +752,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.logo{
 		padding-bottom:5px;
 		min-width:130px;
+		max-width:200px;
 	}
 	.btns{
 		margin-top:10px;
@@ -782,6 +788,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.facts{
 		padding-bottom:40px;
+	}
+	.award{
+		max-width:70px;
+		padding-bottom:5px;
 	}
 	
 	/* Mobile Row Margin Offsets */
