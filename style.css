@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    tinkado_web-24
+	    tinkado_web-26
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -336,10 +336,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-color{
 	color:#ffeeb6;
 }
-.link-color{
-	color:#fff1c3;
-	background-position:left bottom;
-}
 .navbar-brand img{
 	height:100px;
 }
@@ -493,6 +489,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-position:left bottom;
 	padding-bottom:5px;
 }
+.whatsnew{
+	padding-left:15px;
+	padding-right:15px;
+	background-color:rgba(255,255,255,0.60);
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -614,9 +615,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 @media (max-width: 991px){
-	.link-color{
-		color:#ffffff;
-	}
 	.icon{
 		;
 	}
