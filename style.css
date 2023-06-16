@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    tinkado_web-30
+	    tinkado_web-31
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -169,6 +169,13 @@ button{
 	font-size:30px!important;
 }
 
+/*  Rounded Image */
+.img-rd-md{
+	border-radius:20px;
+}
+.img-rd-lg{
+	border-radius:34px;
+}
 
 
 
@@ -490,8 +497,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgcolor{
 	background-color:rgba(0,0,0,0.11);
 }
+.test{
+	padding-top:0px;
+	padding-bottom:15px;
+}
+.txt-padding{
+	padding-top:0px;
+	padding-bottom:15px;
+}
 .img-style{
-	height:400px;
+	;
+}
+.img-lego-walk-cyc-style{
+	height:200px;
+	width:200px;
+	border-radius:226.5px 226.5px 226.5px 226.5px;
 }
 
 /* = Colour
@@ -528,6 +548,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-cerulean-blue{
 	color:#2D44B1!important;
+}
+.tc-medium-sea-green{
+	color:#50B079!important;
 }
 
 /* Link colour styles */
@@ -651,6 +674,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.list-style{
 		padding:0% 0% 0% 0%;
+	}
+	.img-lego-walk-cyc-style{
+		width:200px;
+		height:200px;
+		border-radius:257px 257px 257px 257px;
 	}
 	
 	/* MD Row Margin Offsets */
@@ -789,6 +817,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.award{
 		max-width:70px;
 		padding-bottom:5px;
+	}
+	.img-lego-walk-cyc-style{
+		height:200px;
+		width:200px;
 	}
 	
 	/* Mobile Row Margin Offsets */
