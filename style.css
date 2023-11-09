@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    tinkado_web-31
+	    tinkado_web-32
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -530,6 +530,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-lavender-web{
 	background-color:#DDDCF2;
+}
+.bgc-bisque-2{
+	background-color:#FFE2C3;
 }
 .bgc-white{
 	background-color:rgba(255,255,255,0.60);
