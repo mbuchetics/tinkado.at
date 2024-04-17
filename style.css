@@ -939,6 +939,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.link-style{
 	}
+	.keywords{
+	}
 	
 	/* Small Row Margin Offsets */
 	.voffset-sm{
@@ -964,7 +966,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.btn{
 	}
 	.divider-padding{
-		padding-bottom:30px;
 		padding-top:0px;
 	}
 	.keywords{
