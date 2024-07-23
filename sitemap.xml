@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>tinkado.at/privacy_apps_de.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>tinkado.at/privacy_tinkado_de.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>tinkado.at/privacy_apps_en.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>tinkado.at/privacy_tinkado_en.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>tinkado.at/home_de.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -118,49 +118,57 @@
 	<image:title>FlipKit_img</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>tinkado.at/img/TemplatesTut_img_dt.png</image:loc>
+	<image:title>TemplatesTut_img_dt</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>tinkado.at/img/TemplatesTut_img_dt.webp</image:loc>
+	<image:title>TemplatesTut_img_dt</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>tinkado.at/img/LegoAnim_img_dt.png</image:loc>
-	<image:title>slide 1</image:title>
+	<image:title>LegoAnim_img_dt</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>tinkado.at/img/LegoAnim_img_dt.webp</image:loc>
-	<image:title>slide 1</image:title>
+	<image:title>LegoAnim_img_dt</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>tinkado.at/img/FlipKitTutorial_Fish_img_dt.png</image:loc>
-	<image:title>slide 2</image:title>
+	<image:title>FlipKitTutorial_Fish_img_dt</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>tinkado.at/img/FlipKitTutorial_Fish_img_dt.webp</image:loc>
-	<image:title>slide 2</image:title>
+	<image:title>FlipKitTutorial_Fish_img_dt</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>tinkado.at/img/SnowAnim_img.png</image:loc>
-	<image:title>slide 3</image:title>
+	<image:title>SnowAnim_img</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>tinkado.at/img/SnowAnim_img.webp</image:loc>
-	<image:title>slide 3</image:title>
+	<image:title>SnowAnim_img</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>tinkado.at/img/FlipKitTutorial_img.png</image:loc>
-	<image:title>slide 4</image:title>
+	<image:title>FlipKitTutorial_img</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>tinkado.at/img/FlipKitTutorial_img.webp</image:loc>
-	<image:title>slide 4</image:title>
+	<image:title>FlipKitTutorial_img</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>tinkado.at/img/TinkerTree_img_dt.png</image:loc>
-	<image:title>slide 5</image:title>
+	<image:title>TinkerTree_img_dt</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>tinkado.at/img/TinkerTree_img_dt.webp</image:loc>
-	<image:title>slide 5</image:title>
+	<image:title>TinkerTree_img_dt</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>tinkado.at</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -214,7 +222,7 @@
 </url>
 <url>
 	<loc>tinkado.at/flipkit_press_de.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -284,7 +292,7 @@
 </url>
 <url>
 	<loc>tinkado.at/images.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -418,7 +426,7 @@
 </url>
 <url>
 	<loc>tinkado.at/flipkit_press_en.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -488,19 +496,19 @@
 </url>
 <url>
 	<loc>tinkado.at/privacy_pixli_de.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>tinkado.at/privacy_pixli_en.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>tinkado.at/snow_animation_en.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -546,13 +554,13 @@
 </url>
 <url>
 	<loc>tinkado.at/snow_animation_de.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>tinkado.at/tinker_tree_de.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -614,13 +622,13 @@
 </url>
 <url>
 	<loc>tinkado.at/tinker_tree_en.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>tinkado.at/lego_animation_de.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -682,7 +690,7 @@
 </url>
 <url>
 	<loc>tinkado.at/lego_animation_en.html</loc>
-	<lastmod>2024-04-17</lastmod>
+	<lastmod>2024-07-23</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
