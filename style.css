@@ -898,9 +898,8 @@ url("img/PlayBTN.webp") 2x);
 	padding-bottom:5px;
 }
 .tutorial{
-	max-width:400px;
-	position:relative;
-	display:block;
+	width:400px;
+	height:265px;
 }
 title{
 	top:4px;
@@ -930,8 +929,8 @@ title{
 	max-width:700px;
 }
 .img-pos{
-	position:relative;
-	display:block;
+	width:280px;
+	height:260px;
 }
 
 /* = Colour
@@ -1301,6 +1300,11 @@ title{
 		padding-right:25px;
 		padding-left:25px;
 	}
+	.img-pos{
+		height:260px;
+	}
+	.pink{
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -1382,7 +1386,6 @@ title{
 	.screens-img{
 	}
 	.tutorial{
-		max-width:400px;
 	}
 	.p-tutorials-style{
 		font-size:14px;
@@ -1532,10 +1535,12 @@ title{
 	.container-spacing{
 	}
 	.screens-img{
-		max-width:200px;
+		max-width:225px;
+		max-height:180px;
 	}
 	.tutorial{
-		max-width:215px;
+		height:180px;
+		width:215px;
 	}
 	.p-tutorials-style{
 		font-size:14px;
@@ -1550,6 +1555,10 @@ title{
 	.mypadding{
 	}
 	.split{
+	}
+	.img-pos{
+		width:230px;
+		height:215px;
 	}
 	
 	/* Mobile Row Margin Offsets */
