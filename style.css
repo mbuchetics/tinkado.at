@@ -899,6 +899,8 @@ url("img/PlayBTN.webp") 2x);
 }
 .tutorial{
 	max-width:400px;
+	position:relative;
+	display:block;
 }
 title{
 	top:4px;
@@ -926,6 +928,10 @@ title{
 }
 .trailer{
 	max-width:700px;
+}
+.img-pos{
+	position:relative;
+	display:block;
 }
 
 /* = Colour
