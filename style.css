@@ -564,8 +564,9 @@ h1,h2,h3,h4,h5,h6,p,label,a{
 }
 .icon{
 	background-size:auto auto;
-	width:92%;
+	width:90%;
 	max-width:50px;
+	margin-bottom:10px;
 }
 .download-btn{
 	border-style:none;
@@ -794,15 +795,18 @@ h1,h2,h3,h4,h5,h6,p,label,a{
 	border-radius:8px 8px 8px 8px;
 }
 .screens-img{
-	padding:5px 15px 10px 15px;
-	max-width:300px;
-	max-height:200px;
+	padding-top:1%;
+	padding-right:3%;
+	position:relative;
+	display:block;
+	padding-left:3%;
 }
 .screens-title{
 	color:#FEFFFF!important;
 	width:100%;
 	padding-left:5px;
 	padding-right:5px;
+	font-size:16px;
 }
 .txtbg-color{
 	background-color:#8A4CD7;
@@ -899,13 +903,14 @@ url("img/PlayBTN.webp") 2x);
 }
 .tutorial{
 	width:400px;
-	height:265px;
+	height:260px;
 }
 title{
 	top:4px;
 }
 .p-tutorials-style{
 	color:#FEFFFF!important;
+	font-size:16px;
 }
 .pos{
 	position:relative;
@@ -929,8 +934,10 @@ title{
 	max-width:700px;
 }
 .img-pos{
-	width:280px;
-	height:260px;
+	position:relative;
+	display:block;
+	height:270px;
+	width:300px;
 }
 
 /* = Colour
@@ -1287,11 +1294,14 @@ title{
 	}
 	.screens-title{
 		text-transform:none;
+		font-size:16px;
 	}
 	.container-spacing{
 		margin-bottom:30px;
 	}
 	.screens-img{
+		padding-left:3%;
+		padding-right:3%;
 	}
 	.p-tutorials-style{
 		font-size:16px;
@@ -1301,9 +1311,18 @@ title{
 		padding-left:25px;
 	}
 	.img-pos{
-		height:260px;
 	}
 	.pink{
+	}
+	.test{
+	}
+	.let{
+		margin-top:5px;
+		margin-bottom:15px;
+	}
+	.tutorial{
+		position:relative;
+		display:block;
 	}
 	
 	/* MD Row Margin Offsets */
@@ -1327,7 +1346,8 @@ title{
 
 @media (max-width: 767px){
 	.icon{
-		width:92%;
+		width:90%;
+		margin-bottom:10px;
 	}
 	.divider-padding{
 		;
@@ -1384,11 +1404,12 @@ title{
 		margin-top:20px;
 	}
 	.screens-img{
+		padding-right:4%;
+		padding-left:4%;
 	}
 	.tutorial{
 	}
 	.p-tutorials-style{
-		font-size:14px;
 	}
 	.split{
 		padding-left:25px;
@@ -1398,6 +1419,15 @@ title{
 	}
 	.btn-flipkit-edu{
 		max-width:450px;
+	}
+	.img-pos{
+		height:260px;
+	}
+	.hups{
+		margin-top:5px;
+		margin-right:5px;
+		margin-left:5px;
+		padding:5px 5px 15px 5px;
 	}
 	
 	/* Small Row Margin Offsets */
@@ -1535,15 +1565,16 @@ title{
 	.container-spacing{
 	}
 	.screens-img{
-		max-width:225px;
-		max-height:180px;
+		padding-left:5%;
+		padding-right:5%;
 	}
 	.tutorial{
-		height:180px;
 		width:215px;
+		height:169px;
 	}
 	.p-tutorials-style{
 		font-size:14px;
+		text-align:center;
 	}
 	.screens-title{
 		padding-right:5px;
@@ -1557,8 +1588,12 @@ title{
 	.split{
 	}
 	.img-pos{
-		width:230px;
-		height:215px;
+		width:245px;
+		height:218px;
+	}
+	.icon{
+		width:88%;
+		max-width:50px;
 	}
 	
 	/* Mobile Row Margin Offsets */
