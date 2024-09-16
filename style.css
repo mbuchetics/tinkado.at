@@ -609,6 +609,7 @@ h1,h2,h3,h4,h5,h6,p,label,a{
 	padding-right:5%;
 	margin-left:40px;
 	margin-right:40px;
+	width:100%;
 }
 .icons_contact{
 	padding-top:15px;
@@ -927,7 +928,7 @@ title{
 	padding-left:25px;
 	padding-right:25px;
 }
-.txt-block{
+.block{
 	max-width:700px;
 }
 .trailer{
@@ -938,6 +939,9 @@ title{
 	display:block;
 	height:270px;
 	width:300px;
+}
+.preview{
+	max-width:490px;
 }
 
 /* = Colour
