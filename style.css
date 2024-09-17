@@ -943,6 +943,9 @@ title{
 .preview{
 	max-width:490px;
 }
+.bullets{
+	margin-bottom:6px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1598,6 +1601,9 @@ title{
 	.icon{
 		width:88%;
 		max-width:50px;
+	}
+	.bullets{
+		margin-bottom:6px;
 	}
 	
 	/* Mobile Row Margin Offsets */
