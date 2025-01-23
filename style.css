@@ -275,6 +275,8 @@ button{
 }
 
 
+/* = Cards
+-------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -507,6 +509,9 @@ a[data-lightbox]:hover img{
 }
 .show-controls:not(.hide-left-control) > .blocs-scroll-control-prev, .show-controls:not(.hide-right-control) > .blocs-scroll-control-next{
 	opacity:1!important;
+}
+.blocs-horizontal-scroll-area img.lazyload{
+	height:0;
 }
 
 /* = Custom Styling
@@ -919,6 +924,7 @@ title{
 }
 .padding{
 	margin-bottom:30px;
+	padding-left:0px;
 }
 .test{
 	background-size:auto auto;
@@ -945,6 +951,49 @@ title{
 }
 .bullets{
 	margin-bottom:6px;
+}
+.support-txt{
+	font-size:20px;
+	color:var(--swatch-var-1664)!important;
+}
+.karte-style{
+	margin-bottom:5px;
+}
+.trouble-list-style{
+	padding-left:0px;
+}
+.btn-flipkit-support{
+	width:100%;
+	font-family:"ArialRoundedMTBold";
+	font-weight:400;
+	font-size:18px;
+	border-radius:8px 8px 8px 8px;
+	padding-top:0px;
+	padding-bottom:0px;
+	color:#000000!important;
+	height:45px;
+	background-size:length;
+	background-color:var(--swatch-var-456);
+	white-space:nowrap;
+	max-width:450px;
+}
+.btn-flipkit-support:hover{
+	text-transform:none;
+	color:var(--swatch-var-3682)!important;
+	background-color:var(--swatch-var-456);
+}
+.icon-arrow{
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image:url("img/arrow3.png");
+	background-image: -webkit-image-set(url("img/arrow3.webp") 1x,
+url("img/arrow3.webp") 2x);background-image: image-set(url("img/arrow3.png") 1x,
+url("img/arrow3.png") 2x,url("img/arrow3.webp") 1x,
+url("img/arrow3.webp") 2x);
+	padding-right:0px;
+	background-blend-mode:normal;
+	padding-bottom:13px;
 }
 
 /* = Colour
@@ -1055,6 +1104,12 @@ title{
 	
 	--swatch-var-2708:#8947D1;
 	
+	--swatch-var-7522:rgba(255,184,0,0.50);
+	
+	--swatch-var-2568:rgba(255,255,255,1.0);
+	
+	--swatch-var-7370:#00A8A2;
+	
 }
 
 
@@ -1101,6 +1156,12 @@ title{
 }
 .bgc-3155{
 	background-color:var(--swatch-var-3155);
+}
+.bgc-7903{
+	background-color:var(--swatch-var-7903);
+}
+.bgc-5688{
+	background-color:var(--swatch-var-5688);
 }
 
 /* Text colour styles */
@@ -1292,7 +1353,7 @@ title{
 		font-size:16px;
 		padding-top:0px;
 		padding-bottom:0px;
-		background-color:var(--swatch-var-515);
+		background-color:var(--swatch-var-456);
 	}
 	.icon-edu{
 	}
@@ -1330,6 +1391,20 @@ title{
 	.tutorial{
 		position:relative;
 		display:block;
+	}
+	.support-txt{
+		font-size:20px;
+	}
+	.btn-flipkit-support{
+		white-space:nowrap;
+		font-size:16px;
+		font-family:"ArialRoundedMTBold";
+		font-weight:400;
+		background-color:var(--swatch-var-456);
+		max-width:450px;
+	}
+	.icon-arrow{
+		padding-top:0px;
 	}
 	
 	/* MD Row Margin Offsets */
@@ -1435,6 +1510,19 @@ title{
 		margin-right:5px;
 		margin-left:5px;
 		padding:5px 5px 15px 5px;
+	}
+	.support-txt{
+		font-size:20px;
+	}
+	.list-style{
+	}
+	.trouble-list-style{
+		padding-left:24px;
+	}
+	.btn-flipkit-support{
+		border-radius:8px 8px 8px 8px;
+		opacity:1.0;
+		max-width:450px;
 	}
 	
 	/* Small Row Margin Offsets */
@@ -1604,6 +1692,29 @@ title{
 	}
 	.bullets{
 		margin-bottom:6px;
+	}
+	.support-txt{
+		font-size:18px;
+		color:var(--swatch-var-1664)!important;
+	}
+	.trouble-list-style{
+		padding-left:0px;
+	}
+	.btn-flipkit-support{
+		font-family:"ArialRoundedMTBold";
+		font-weight:400;
+		font-size:14px;
+		white-space:nowrap;
+		max-width:450px;
+	}
+	.btn-flipkit-support:hover{
+		background-color:var(--swatch-var-2798);
+	}
+	.icon-arrow{
+		margin-right:4px;
+	}
+	.padding{
+		padding-left:0px;
 	}
 	
 	/* Mobile Row Margin Offsets */

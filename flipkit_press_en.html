@@ -8,8 +8,8 @@
 	<link rel="canonical" href="tinkado.at/flipkit_press_en.html">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?7798">
-	<link rel="stylesheet" type="text/css" href="style.css?7738">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2405">
+	<link rel="stylesheet" type="text/css" href="style.css?5616">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/feather.min.css">
@@ -81,7 +81,7 @@ overflow-y:hidden;
 				</div>
 				<div class="row voffset-clear-sm voffset-clear-xs no-gutters btns">
 					<div class="col">
-						<a href="https://apps.apple.com/us/app/flipkit-flipbook-animations/id1507694594" target="_blank"><picture><source type="image/webp" srcset="img/lazyload-ph.png" data-srcset="img/appstore-button-1.webp"><img src="img/lazyload-ph.png" data-src="img/appstore-button-1.png" class="img-fluid download-btn float-md-right float-sm-right float-right float-lg-right lazyload" alt="Download on the App Store" width="133" height="45"></picture></a>
+						<a href="https://apps.apple.com/us/app/flipkit-flipbook-animations/id1507694594" data-target="_blank" target="_blank"><picture><source type="image/webp" srcset="img/lazyload-ph.png" data-srcset="img/appstore-button-1.webp"><img src="img/lazyload-ph.png" data-src="img/appstore-button-1.png" class="img-fluid download-btn float-md-right float-sm-right float-right float-lg-right lazyload" alt="Download on the App Store" width="133" height="45"></picture></a>
 					</div>
 				</div>
 				<div class="divider-h divider-padding">
@@ -141,7 +141,7 @@ overflow-y:hidden;
 					<a href="https://files.tinkado.at/flipkit/presskit_images.zip"><span class="feather-icon icon-inbox icon-515 icon-sm link-icon"></span></a><a class="ltc-515 link-style" href="https://files.tinkado.at/flipkit/presskit_images.zip">Screenshots & Artwork</a><br>
 				</h6>
 				<h6 class="mg-sm mg-sm-xs mg-sm-sm mg-sm-md">
-					<a href="https://files.tinkado.at/flipkit/presskit_images.zip"><span class="feather-icon icon-inbox icon-515 icon-sm link-icon"></span></a><a class="ltc-515 link-style" href="https://files.tinkado.at/flipkit/flipkit-guide-en.pdf">User Interface Guide (PDF)</a><br>
+					<a href="https://files.tinkado.at/flipkit/presskit_images.zip"><span class="feather-icon icon-inbox icon-515 icon-sm link-icon"></span></a><a class="ltc-515 link-style" href="https://files.tinkado.at/flipkit/flipkit-guide-en.pdf">User Interface Guide (PDF)</a>
 				</h6>
 				<h6 class="text-left mg-sm-xs mg-sm-sm mg-sm-md mg-sm">
 					<a href="https://files.tinkado.at/flipkit/presskit_videos.zip"><span class="feather-icon icon-inbox icon-sm icon-515 link-icon"></span></a><a class="ltc-515 link-style" href="https://files.tinkado.at/flipkit/presskit_videos.zip">Teaser & Animations</a><br>
@@ -561,9 +561,19 @@ overflow-y:hidden;
 										<h6 class="mg-clear bullets">
 											<a class="link-style ltc-515" href="https://www.digileg-macht-schule.de/werkzeug/flipkit-87/">Teaching materials (Online-Portal „DigiLeG macht Schule“)</a>
 										</h6>
-										<h6>
+										<h6 class="padding">
 											<a class="link-style ltc-515" href="https://www.youtube.com/@tinkado">Tinkado - Youtube Channel</a>
 										</h6>
+									</div>
+								</div>
+		<div class="row no-gutters">
+									<div class="col mypadding">
+										<h3 class="mg-md">
+											Support
+										</h3>
+										<p class="block">
+											If you encounter any problems or have questions take a look at our <a class="link-style" href="flipkit_support_en.html">support page</a>. You’ll hopefully find the right solution there. Additionally, you’ll find helpful tips for getting started with FlipKit. If you can’t find an answer to your query, feel free to email us at: <a class="link-style" href="mailto:info@tinkado.at">info@tinkado.at</a>.<br>
+										</p><a href="flipkit_support_en.html" class="btn btn-d btn-lg btn-flipkit-support"><span class="fa fa-star icon-spacer icon-arrow icon-5179 icon-md"></span>Support & FAQ</a>
 									</div>
 								</div>
 	</div>
@@ -598,15 +608,15 @@ overflow-y:hidden;
 
 
 <!-- Additional JS -->
-<script src="./js/jquery.min.js?7641"></script>
-<script src="./js/bootstrap.bundle.min.js?3536"></script>
-<script src="./js/blocs.min.js?7388"></script>
+<script src="./js/jquery.min.js?1138"></script>
+<script src="./js/bootstrap.bundle.min.js?5391"></script>
+<script src="./js/blocs.min.js?6584"></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/scrollFX.js?6423"></script>
+<script src="./js/scrollFX.js?4374"></script>
 <!-- Additional JS END -->
-<!-- Audio Player Auto Pause JS -->
-<script>let activePlayer = null; const players = document.querySelectorAll('audio, video'); players.forEach(player => { player.addEventListener('play', function() { if (activePlayer && activePlayer !== this) { activePlayer.pause(); } activePlayer = this; }); });</script>
-<!-- Audio Player Auto Pause JS -->
+<!-- Video / Audio Player Auto Pause JS -->
+<script>let activePlayer = null; const players = document.querySelectorAll('audio, video'); players.forEach(player => { player.addEventListener('play', function() { if (activePlayer && activePlayer !== this && !activePlayer.hasAttribute('autoplay')) { activePlayer.pause(); } activePlayer = this; }); });</script>
+<!-- Video / Audio Player Auto Pause JS -->
 <script>
 
 
